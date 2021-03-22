@@ -1,0 +1,53 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?2a6ed7e8f07f9aa28498aa686c02c7b2") format("truetype"),
+url("./flaticon.woff?2a6ed7e8f07f9aa28498aa686c02c7b2") format("woff"),
+url("./flaticon.woff2?2a6ed7e8f07f9aa28498aa686c02c7b2") format("woff2"),
+url("./flaticon.eot?2a6ed7e8f07f9aa28498aa686c02c7b2#iefix") format("embedded-opentype"),
+url("./flaticon.svg?2a6ed7e8f07f9aa28498aa686c02c7b2#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "breakfast": "\f101",
+    "coffee-cup": "\f102",
+    "food": "\f103",
+    "lunch": "\f104",
+    "noodles": "\f105",
+    "restaurant": "\f106",
+    "take-away": "\f107",
+);
+
+.flaticon-breakfast:before {
+    content: map-get($flaticon-map, "breakfast");
+}
+.flaticon-coffee-cup:before {
+    content: map-get($flaticon-map, "coffee-cup");
+}
+.flaticon-food:before {
+    content: map-get($flaticon-map, "food");
+}
+.flaticon-lunch:before {
+    content: map-get($flaticon-map, "lunch");
+}
+.flaticon-noodles:before {
+    content: map-get($flaticon-map, "noodles");
+}
+.flaticon-restaurant:before {
+    content: map-get($flaticon-map, "restaurant");
+}
+.flaticon-take-away:before {
+    content: map-get($flaticon-map, "take-away");
+}
