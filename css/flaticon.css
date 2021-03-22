@@ -29,7 +29,9 @@
 	margin-left: 0px;
 }
 
-.flaticon-canape:before { content: "\f100"; }
-.flaticon-dinner:before { content: "\f101"; }
-.flaticon-desert:before { content: "\f102"; }
-.flaticon-coffee:before { content: "\f103"; }
+.flaticon-dinner:before { content: "\f100"; }
+.flaticon-noodles:before { content: "\f101"; }
+.flaticon-lunch:before { content: "\f103"; }
+.flaticon-dinner:before { content: "\f104"; }
+.flaticon-noodles:before { content: "\f105"; }
+.flaticon-breakfast:before { content: "\f101"; }
